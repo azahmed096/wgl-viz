@@ -1,0 +1,19 @@
+{
+  "name": "webgl-frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack-dev-server --hot",
+    "build": "webpack --config webpack.config.js"
+  },
+  "dependencies": {
+    "three": "^0.102.1",
+    "three-gltf-loader": "^1.102.0",
+    "webpack": "^4.29.6"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
